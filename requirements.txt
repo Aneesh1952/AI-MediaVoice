@@ -1,5 +1,5 @@
 Flask
-SpeechRecognition
-pyttsx3
+gTTS
 requests
+wikipedia-api
 wikipedia
