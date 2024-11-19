@@ -2,4 +2,4 @@ Flask
 SpeechRecognition
 pyttsx3
 requests
-wikipedia-api
+wikipedia
