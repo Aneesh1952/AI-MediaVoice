@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 from gtts import gTTS
 import os
 import requests
@@ -7,6 +8,7 @@ import webbrowser
 import datetime
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 NEWS_API_KEY = "c4692a2a30df4e919d1f52728cea4afb"  # Replace with your News API key
 
