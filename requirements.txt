@@ -3,3 +3,4 @@ gTTS
 requests
 wikipedia-api
 wikipedia
+flask-cors
